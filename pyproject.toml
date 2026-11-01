@@ -1,0 +1,20 @@
+[project]
+name = "krea2-spatial-composition"
+version = "1.0.0"
+description = "Compose region-aware prompts from a 3x3 grid with an in-app visual editor, for rule-of-thirds spatial composition in ComfyUI."
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+dependencies = []
+keywords = ["comfyui", "krea2", "spatial-composition", "rule-of-thirds", "prompt", "comfyui-custom-node"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Repository = "https://github.com/un4ssociated/Krea2SpatialComposition"
+"Bug Tracker" = "https://github.com/un4ssociated/Krea2SpatialComposition/issues"
+
+[tool.comfy]
+PublisherId = "un4ssociated"
+DisplayName = "Krea2 Spatial Composition 3x3"
