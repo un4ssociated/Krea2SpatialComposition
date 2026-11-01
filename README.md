@@ -176,7 +176,7 @@ thirds rather than failing the run.
 | Output | Type | Notes |
 |---|---|---|
 | `prompt` | STRING | The composed prompt. |
-| `layout_guide` | IMAGE | Optional visualisation of regions and markers. |
+| `layout_guide` | IMAGE | Optional visualization of regions and markers. |
 
 `layout_guide` is for inspection only — wire it to **Preview Image** if you want to see it. It is
 not part of the generation path, and the generated image never contains the grid.
