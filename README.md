@@ -99,6 +99,19 @@ These are the author's choices, not requirements — substitute your own Krea 2 
 
 ## Install
 
+### ComfyUI Manager
+
+Search for **Krea2 Spatial Composition 3x3** in *Manager → Custom Nodes Manager*, install, then
+restart ComfyUI.
+
+### comfy-cli
+
+```bash
+comfy node install krea2-spatial-composition
+```
+
+### Manual
+
 ```bash
 cd ComfyUI/custom_nodes
 git clone https://github.com/un4ssociated/Krea2SpatialComposition.git
@@ -110,6 +123,12 @@ under the `Krea2/Composition` category.
 If the node appears but **Open 3×3 Visual Editor** does nothing, the frontend extension failed to
 load — hard-refresh the browser tab (Ctrl+Shift+R) and check the browser console for errors from
 `web/spatial_editor.js`.
+
+## Update
+
+Manager and `comfy-cli` pick up new versions from the
+[Comfy Registry](https://registry.comfy.org). A manual install updates with `git pull` in the
+node folder, followed by a ComfyUI restart.
 
 ---
 
